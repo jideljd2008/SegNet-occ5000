@@ -1,0 +1,3 @@
+#python ./Scripts/test_segmentation_camvid.py --model ./Models/segnet_inference_occ2500.prototxt --weights ./Models/Inference/occ2500.test_weights.caffemodel --iter 2500 --subset occ2500 # Test SegNet occ2500
+#python ./Scripts/test_segmentation_camvid.py --model ./Models/segnet_inference_occ2000.prototxt --weights ./Models/Inference/occ2000/test_weights.caffemodel --iter 2000  --subset occ2000 # Test SegNet occ2000
+python ./Scripts/test_segmentation_camvid.py --model ./Models/segnet_inference_unOcc500.prototxt --weights ./Models/Inference/unOcc500/test_weights.caffemodel --iter 500 --subset unOcc500 # Test SegNet occ500

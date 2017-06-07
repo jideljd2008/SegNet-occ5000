@@ -1,0 +1,3 @@
+#python ./Scripts/compute_bn_statistics.py ./Models/segnet_train_occ2500.prototxt ./Models/Training/occ2500/segnet_iter_40000.caffemodel ./Models/Inference/occ2500/  # compute BN statistics for SegNet occ2500
+#python ./Scripts/compute_bn_statistics.py ./Models/segnet_train_occ2000.prototxt ./Models/Training/occ2000/segnet_iter_40000.caffemodel ./Models/Inference/occ2000/  # compute BN statistics for SegNet occ2000
+python ./Scripts/compute_bn_statistics.py ./Models/segnet_train_unOcc500.prototxt ./Models/Training/unOcc500/segnet_iter_40000.caffemodel ./Models/Inference/unOcc500/  # compute BN statistics for SegNet unOcc500
